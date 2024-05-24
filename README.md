@@ -77,3 +77,16 @@ Kubectl is a command line tool for Kubernetes. We can interact with clusters thr
 <br>
 > kubectl version
 <br>
+<br>
+<b>Deploying a Kubernetes Cluster on Virtual Machines:(ubuntu 22.04) </b>
+<br>
+<b>Prerequisites: </b><br>
+<ul>
+<li>2 CPUs </li>
+<li>Min. 8GB RAM </li>
+<li>Create two virtual machines.(control plane and worker node)</li>
+</ul>
+<br>
+
+
+
