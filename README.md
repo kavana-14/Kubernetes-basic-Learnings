@@ -74,7 +74,6 @@ Kubectl is a command line tool for Kubernetes. We can interact with clusters thr
 > sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl <br><br>
 > kubectl version
 <br>
-<br>
 <b>Deploying a Kubernetes Cluster on Virtual Machines:(ubuntu 22.04) </b>
 <br>
 <b>Prerequisites: </b><br>
