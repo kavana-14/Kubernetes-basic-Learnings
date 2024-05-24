@@ -2,8 +2,9 @@
 <br>
 Creating this repo to tell about my recent basic kuberenetes learnings.<br>
 <br>
-Kubernetes is a portable, extensible and open-source container orchestration tool that allows you to run and manage container-based workloads and services. <br>
+<b></b>Kubernetes</b> is a portable, extensible and open-source container orchestration tool that allows you to run and manage container-based workloads and services. <br>
 It helps in automating deployment, scaling and management of containerized applications. 
+<br>
 <br>
 <b>Problem with containers:</b> 
 
