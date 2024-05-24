@@ -27,9 +27,7 @@ Load balancing, firewall, api gateway, auto scaling and healing are not supporte
 <br>
 
 ![Screenshot (50)](https://github.com/kavana-14/Kubernetes-basic-Learnings/assets/163102550/941c186a-3a58-4b4f-b606-40cd68b53eec)
-
-<br>
-<center><b>Components of Kubernetes Cluster</b></center>
+<b><center>Components of Kubernetes Cluster</center></b>
 <br>
 
 <b>why Kubernetes? </b>
