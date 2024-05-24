@@ -68,10 +68,12 @@ Kubernetes allocates cluster IP addresses to pod, we can access the application 
 
 Kubectl is a command line for Kubernetes. We can interact with clusters through kubectl. 
 
-<b>Install kubectl for linux- </b><br>
+<b>Install kubectl for linux- (Ubuntu 22.04)</b><br>
 
 > curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" 
 <br>
 > sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl 
 <br>
-> kubectl version 
+<br>
+> kubectl version
+<br>
