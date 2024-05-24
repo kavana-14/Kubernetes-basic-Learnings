@@ -88,6 +88,5 @@ Kubectl is a command line tool for Kubernetes. We can interact with clusters thr
 </ul>
 <br>
 <b><p>Installation and setting up of kubernetes nodes:</p></b>
-<br>
-<p>Reference</p>
+<p>Reference:</p>
 <a href="https://rudimartinsen.com/2023/12/29/kubernetes-cluster-on-vms-2024/">Deploying a Kubernetes Cluster</a>
