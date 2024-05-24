@@ -20,7 +20,7 @@ If someone kill the container, can’t access the application. User has to manua
 
 Load balancing when the load increases 
 
-  <b>3. Doesn’t provide Enterprise support </b>
+  <b>4. Doesn’t provide Enterprise support </b>
 
 Load balancing, firewall, api gateway, auto scaling and healing are not supported by container. 
 <br>
@@ -37,18 +37,18 @@ In a production environment, you need to manage the containers that run the appl
 Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more. 
 <br>
 <br> 
-<b>Cluster: </b><br>
+<b>1. Cluster: </b><br>
 By default, Kubernetes is a cluster (group of nodes), if any faulty nodes are 	present in a Kubernetes, immediately it will move the pods to another node. 
 <br>
-<b>Auto Scaling: </b><br>
+<b>2. Auto Scaling: </b><br>
 Kubernetes has a replica set (replication controller). In this case there is no 	need to deploy a new container. In the deployment YAML file we can increase 	 the replica manually. 
 <br>
 Kubernetes also support automatic scaling like HPA (Horizontal Pod Auto 	Scale), if the load increases, then it will spin up new container. 
 <br>
-<b>Auto healing: </b><br>
+<b>3. Auto healing: </b><br>
 Whenever there is damage, Kubernetes must control and fix it. Whenever API 	server receives a signal that any container (pod) is going down, even before it 	goes down, Kubernetes will roll out a new container (pod). 
 <br>
-<b>Enterprise support: </b><br>
+<b>4. Enterprise support: </b><br>
 Enterprise level container orchestration platform (Kubernetes) 
 <br>
 <br>
