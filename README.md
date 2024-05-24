@@ -23,3 +23,8 @@ Load balancing when the load increases
   <b>3. Doesn’t provide Enterprise support </b>
 
 Load balancing, firewall, api gateway, auto scaling and healing are not supported by container. 
+<br>
+<br>
+
+
+
