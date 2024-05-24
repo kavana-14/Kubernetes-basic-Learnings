@@ -70,8 +70,8 @@ Kubectl is a command line tool for Kubernetes. We can interact with clusters thr
 
 <b>Install kubectl for linux- (Ubuntu 22.04)</b><br>
 
-> curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" 
-> sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl 
+> curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"<br> 
+> sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl <br>
 > kubectl version
 <br>
 <br>
