@@ -25,7 +25,7 @@ Load balancing when the load increases
 Load balancing, firewall, api gateway, auto scaling and healing are not supported by container. 
 <br>
 <br>
-![alt text]()
+![alt text](https://github.com/kavana-14/Kubernetes-basic-Learnings/architecture.png)
 
 
 
