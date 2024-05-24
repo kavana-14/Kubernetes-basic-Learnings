@@ -62,3 +62,16 @@ Example: Container A and B inside a single pod can talk to each other on a local
   ![pod](https://github.com/kavana-14/Kubernetes-basic-Learnings/assets/163102550/e6f1122f-ff7a-4f2f-89c3-b117ebbd81e8)
 <br>
 Kubernetes allocates cluster IP addresses to pod, we can access the application inside the container using this pod cluster IP address. Kube proxy generates IP addresses. <br>
+<br>
+<br>
+<b>Kubectl: </b><br>
+
+Kubectl is a command line for Kubernetes. We can interact with clusters through kubectl. 
+
+<b>Install kubectl for linux- </b><br>
+
+> curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl" 
+<br>
+> sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl 
+<br>
+> kubectl version 
