@@ -66,7 +66,7 @@ Kubernetes allocates cluster IP addresses to pod, we can access the application 
 <br>
 <b>Kubectl: </b><br>
 
-Kubectl is a command line for Kubernetes. We can interact with clusters through kubectl. 
+Kubectl is a command line tool for Kubernetes. We can interact with clusters through kubectl. 
 
 <b>Install kubectl for linux- (Ubuntu 22.04)</b><br>
 
