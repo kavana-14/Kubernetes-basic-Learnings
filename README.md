@@ -37,21 +37,22 @@ In a production environment, you need to manage the containers that run the appl
 Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more. 
 <br>
 <br> 
-<b>Cluster: </b>
+<b>Cluster: </b><br>
 By default, Kubernetes is a cluster (group of nodes), if any faulty nodes are 	present in a Kubernetes, immediately it will move the pods to another node. 
 <br>
-<b>Auto Scaling: </b>
+<b>Auto Scaling: </b><br>
 Kubernetes has a replica set (replication controller). In this case there is no 	need to deploy a new container. In the deployment YAML file we can increase 	 the replica manually. 
 <br>
 Kubernetes also support automatic scaling like HPA (Horizontal Pod Auto 	Scale), if the load increases, then it will spin up new container. 
 <br>
-<b>Auto healing: </b>
+<b>Auto healing: </b><br>
 Whenever there is damage, Kubernetes must control and fix it. Whenever API 	server receives a signal that any container (pod) is going down, even before it 	goes down, Kubernetes will roll out a new container (pod). 
 <br>
-<b>Enterprise support: </b>
+<b>Enterprise support: </b><br>
 Enterprise level container orchestration platform (Kubernetes) 
 <br>
-<b>What is Pod. Why do we deploy applications as a pod in Kubernetes? </b>
+<br>
+<b>What is Pod. Why do we deploy applications as a pod in Kubernetes? </b><br>
 It is described as a “Definition of how to run a container”.  <br>
 A pod can be a single or multiple containers. In Kubernetes, everything will deal with YAML files. Pod contains yaml file for how to run the container. <br>
 If we put 2 containers inside a pod, Kubernetes will ensure that container can have shared network and shared storage. <br>
